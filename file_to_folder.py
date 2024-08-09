@@ -1,8 +1,6 @@
 import os
 import shutil
 
-### Creates new folders for each file in a directory and moves them into the folder
-
 def create_folders_for_files(source_directory, target_directory):
     # Ensure the source and target directories exist
     if not os.path.exists(source_directory):
